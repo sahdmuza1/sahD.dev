@@ -19,7 +19,7 @@ export default function App() {
         <Route path="/" element={<Welcome />} />
         <Route path="/home" element={<Home />} /> {/* Add Home Route */}
       </Routes>
-      {!hideFooter && <Footer />}
+     // {!hideFooter && <Footer />}//
     </>
   );
 }
